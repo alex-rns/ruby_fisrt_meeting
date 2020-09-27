@@ -1,5 +1,5 @@
 @sum = 0
-def ask question
+def ask (question)
   puts question
   answer = gets.chomp
   if answer == "y"
